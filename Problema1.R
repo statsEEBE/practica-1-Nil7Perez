@@ -30,6 +30,6 @@ cbind(ne,fe,Ne,Fe)
 #Rango interquartilico es q0.75-q0.25= IQR
 IQR(mis_dades$cyl)
 quantile(mis_dades$cyl,0.75)-quantile(mis_dades$cyl,0.25)
-boxplot(mis_dades$cyl)
-var(mis_dades$cyl)
-sd(mis_dades$cyl)
+boxplot(mis_dades$cyl)#Plot de IQR
+var(mis_dades$cyl)#variacio corregida
+sd(mis_dades$cyl)#desviacio tipica corregida 
